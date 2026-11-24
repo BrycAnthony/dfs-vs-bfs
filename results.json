@@ -1,0 +1,114 @@
+{
+  "runtime": [
+    {
+      "V": 10000,
+      "E": 30000,
+      "bfs_ms": 6.4,
+      "dfs_ms": 10.0
+    },
+    {
+      "V": 50000,
+      "E": 150000,
+      "bfs_ms": 60.3,
+      "dfs_ms": 90.7
+    },
+    {
+      "V": 100000,
+      "E": 300000,
+      "bfs_ms": 169.8,
+      "dfs_ms": 268.7
+    },
+    {
+      "V": 200000,
+      "E": 600000,
+      "bfs_ms": 433.6,
+      "dfs_ms": 654.9
+    },
+    {
+      "V": 400000,
+      "E": 1200000,
+      "bfs_ms": 1025.4,
+      "dfs_ms": 1590.4
+    }
+  ],
+  "grid": {
+    "near": {
+      "BFS": {
+        "explored": 221,
+        "path_len": 20,
+        "peak_frontier": 22
+      },
+      "DFS": {
+        "explored": 1021,
+        "path_len": 1020,
+        "peak_frontier": 1011
+      },
+      "optimal": 20
+    },
+    "centre": {
+      "BFS": {
+        "explored": 5101,
+        "path_len": 100,
+        "peak_frontier": 101
+      },
+      "DFS": {
+        "explored": 5101,
+        "path_len": 5100,
+        "peak_frontier": 5051
+      },
+      "optimal": 100
+    },
+    "far corner": {
+      "BFS": {
+        "explored": 10201,
+        "path_len": 200,
+        "peak_frontier": 101
+      },
+      "DFS": {
+        "explored": 10201,
+        "path_len": 10200,
+        "peak_frontier": 10001
+      },
+      "optimal": 200
+    }
+  },
+  "grid_n": 101,
+  "tree": [
+    {
+      "depth": 8,
+      "V": 511,
+      "bfs_peak": 256,
+      "dfs_peak": 9
+    },
+    {
+      "depth": 10,
+      "V": 2047,
+      "bfs_peak": 1024,
+      "dfs_peak": 11
+    },
+    {
+      "depth": 12,
+      "V": 8191,
+      "bfs_peak": 4096,
+      "dfs_peak": 13
+    },
+    {
+      "depth": 14,
+      "V": 32767,
+      "bfs_peak": 16384,
+      "dfs_peak": 15
+    },
+    {
+      "depth": 16,
+      "V": 131071,
+      "bfs_peak": 65536,
+      "dfs_peak": 17
+    },
+    {
+      "depth": 18,
+      "V": 524287,
+      "bfs_peak": 262144,
+      "dfs_peak": 19
+    }
+  ]
+}
